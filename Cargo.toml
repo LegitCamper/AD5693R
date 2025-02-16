@@ -1,19 +1,16 @@
 [package]
-name = "mcp4725"
+name = "ad5693x"
 version = "0.4.2"
 edition = "2018"
 rust-version = "1.38"
 
 authors = ["Mendelt Siebenga <msiebenga@gmail.com>"]
 license = "MIT/Apache-2.0"
-description = "Microchip MCP4725 DAC Driver for Rust Embedded HAL"
-repository = "https://github.com/mendelt/mcp4725"
+description = "Microchip AD5693x DAC Driver for Rust Embedded HAL"
+repository = "https://github.com/legitcamper/AD5693R"
 categories = ["no-std", "embedded"]
 keywords = ["dac", "i2c"]
 readme = "README.md"
 
 [dependencies]
 embedded-hal = "0.2.6"
-
-[dev-dependencies]
-embedded-hal-mock = "0.8.0"
